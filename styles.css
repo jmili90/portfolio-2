@@ -1,0 +1,204 @@
+    * { margin: 0;}
+    body {
+        background-color: #F8F8F8;
+    }
+   header {
+        background-color:  #d5e1d4;
+        background-image: url(blob2.svg), url(blob.svg), url(blob3.svg);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: right top, left bottom, right bottom;
+        background-size: 30vmax, 70vmax, 10vmax;
+        display: block;
+        padding-top: 15%;        
+        padding-bottom: 15%;
+        grid-row-gap:5ch;
+        padding-left: 20%;
+        padding-right: 20%;
+       
+    } 
+    img#logo {
+        max-width: 35px;
+    }
+    h1 {
+        font-size: 60px;
+        font-family: Verdana, sans-serif;
+        color: #0A0A0A;
+        padding: 0.5em 0;
+    }
+    mark {
+        display: inline-block;
+        line-height: 0em;
+        padding-bottom: 0.5em;
+        background-color: #FE8361;
+    }
+    
+    nav {
+        display: flex;
+        padding: 1% 15%;
+        background-color: #0A0A0A;
+        color: #F8F8F8;   
+        font-size: large;
+        font-family: Verdana, sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    div#divnav {
+        width: 50vw;
+    }
+    .nav_link {        
+        padding: 0 12px;
+        color: #F8F8F8;
+        text-decoration: none;
+    }
+
+    a#myname {
+        white-space: nowrap;
+    }
+    section {
+        padding: 2% 15%;
+        background-color: #F8F8F8;
+    }
+
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3.5em 0;
+        width: 70%;    
+        min-width: 360px;
+    }    
+    div#welcomeaudio {
+        display: block;
+        text-align: center;
+        padding: 3.5em 0;
+        background-image: url(https://www.svgrepo.com/show/54407/musical-notes-symbols.svg);
+        background-position: center top;
+        background-repeat:no-repeat;
+        background-size: 50px;
+    }
+    article {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3.5em;
+        width: 100%;
+        padding: 3.5em 0;        
+    }
+
+    .articleimg {        
+        min-width: 600px;
+    }    
+    
+    img {
+        width: 100%;
+        margin: auto;
+    }
+   
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+        vertical-align: top;    
+    }
+
+    div#articleform {
+        width: auto;
+        padding: 24px 24px ;                              
+        background-color:#c2d1c1;
+        margin: 4% 0px;        
+    }
+            
+    input {        
+        padding: 12px 20px;
+        width: auto;
+        border: none;
+        background: white;
+        box-sizing: border-box;        
+    }
+
+    input[type=button] {        
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: #FE8361;
+        width: fit-content;
+        height: 50px;
+    }
+
+    textarea {
+        height: 120px;
+        resize: vertical;
+    }
+
+    .table {
+        width: auto;        
+        height: auto;
+        background-color: none;   
+    }
+    td {    
+        width: 100%;
+        min-width: 150px;
+        margin: 16px;
+    }
+    .progress {
+        font-family: Verdana, sans-serif;
+    }
+    .w3-light-grey {
+        background-color: #EEEEEE;
+    }
+   
+    .w3-container {
+        display: table;
+        clear: both;
+    }
+    .w3-blue {
+        color:#fff;
+        background-color:#FE8361;
+    }
+
+    aside {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: #513953;
+        color: #f8f8f8;
+    }
+    .aside_link {
+        color: #f8f8f8;
+        text-decoration: none;
+    }
+    
+    h2{
+        font-size: 36px;
+        font-family: Verdana, sans-serif;
+        line-height: 3em;
+    }
+    h3{
+        font-size: 24px;
+        font-family: Verdana, sans-serif;
+        line-height: 2em;
+    }
+    p {
+        font-family: Verdana, sans-serif;
+        padding-left: 2%;
+        line-height: 2em;
+        letter-spacing: 1px;
+    }
+    li {
+        font-family: Verdana, sans-serif;
+        padding-left: 2%;
+        padding: 6px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }        
+    footer {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: #F8F8F8;
+        background-color: #0A0A0A;
+    }
